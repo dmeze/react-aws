@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+
+  background-color: white;
+}
+
+.headerTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.userTab {
+  & > button {
+    font-size: 14px;
+  }
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 10px;
+}
